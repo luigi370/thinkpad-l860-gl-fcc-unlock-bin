@@ -26,6 +26,7 @@ sha256sums=('e9be190c46a49ae47c14d59bdc0450e6541e93fa5a0243d9cb3c0affc6a6ee0e'
 install=$pkgname.install
 
 prepare() {
+    bsdtar -xvf n3xwp04w.zip
     tar xf lenovo-wwan-unlock_ver2.1.tar.gz
 }
 
