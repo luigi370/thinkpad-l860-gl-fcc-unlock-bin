@@ -1,0 +1,9 @@
+*.tar
+*.tar.*
+
+src/
+pkg/
+.idea/
+
+*.zip
+*.txt
